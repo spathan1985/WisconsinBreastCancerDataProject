@@ -5,7 +5,7 @@ Created on Mon Jul 17 15:44:33 2017
 @author: Shagufta
 """
 
-# Module 12: Assignment Final Project Phase 3
+# Wisconsin Breast Cancer Project 
 
 import pandas as pd
 import numpy as np
@@ -78,8 +78,8 @@ def main():
     k = 2  #centroid value
     df = impute_missing_value(raw_data) #replace missing values with mean
     
-    with PdfPages('C:\\Users\\Shagufta\\Downloads\\MS Application Docs\\Indiana University\\Summer 2017 - Sem3\\Python\\Module12\\spathan\\HistogramResults.pdf') as pdf:
-        #this module PdfPages writes the  plots to a pdf file mentioned in the path
+    with PdfPages('HistogramResults.pdf') as pdf:
+        #this module PdfPages writes the  plots to a pdf file specified in the path
         #For column A2 - Clump Thickness
         clump_thickness = df['A2']
         fig1 = plt.figure(figsize=(9,6))
