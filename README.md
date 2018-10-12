@@ -1,5 +1,5 @@
 # WisconsinBreastCancerDataProject
-Implement K-means clustering algorithm on UCI machine learning dataset for classifying benign and malign cells
+Implement K-means clustering algorithm on UCI machine learning dataset for classifying benign and malign cells using Python and Machine learning.
 
 ## Phase1 - Data Analysis
 * Download the data using Python
