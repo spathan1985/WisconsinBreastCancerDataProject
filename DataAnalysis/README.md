@@ -1,4 +1,5 @@
-* Download the data and load it in Python
-* Impute missing values
-* Plot basic graphs
+* Download the data using Python
+* Load dataset into python using pandas library
+* Impute missing values using mean imputation techniques
+* Plot histograms using matplotlib
 * Compute description of data
